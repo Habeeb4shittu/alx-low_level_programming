@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * print_rev - print string in a reverse mode
 * @s: string
@@ -10,9 +11,9 @@ int init;
 for (init = 0; s[init] != '\0'; ++init)
 {
 }
-for (--init; init >= 0; --index)
+for (--init; init >= 0; --init)
 {
-putchar(s[index]);
+putchar(s[init]);
 }
 putchar('\n');
 }
