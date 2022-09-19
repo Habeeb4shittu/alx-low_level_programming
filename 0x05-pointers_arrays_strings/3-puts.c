@@ -8,5 +8,5 @@
 */
 void _puts(char *str)
 {
-putchar("%s", *str);
+_putchar("%p", *str);
 }
