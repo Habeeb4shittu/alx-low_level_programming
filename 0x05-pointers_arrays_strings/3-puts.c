@@ -8,5 +8,5 @@
 */
 void _puts(char *str)
 {
-puts("%p\n", *str);
+puts(*str);
 }
