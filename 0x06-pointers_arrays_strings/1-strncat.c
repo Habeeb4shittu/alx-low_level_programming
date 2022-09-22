@@ -6,6 +6,7 @@
 * @dest: first string
 * @src: second string
 * @n: length
+* Return: Always Success
 */
 char *_strncat(char *dest, char *src, int n)
 {
