@@ -5,7 +5,7 @@
 * _strcmp - comparation of strings
 * @s1: string 1
 * @s2: string 2
-* return: always zero
+* Return: always zero
 */
 int _strcmp(char *s1, char *s2)
 {
