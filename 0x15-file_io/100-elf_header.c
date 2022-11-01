@@ -1,10 +1,15 @@
+#include <stdio.h>
 #include "main.h"
+#include <unistd.h>
+#include <stdlib.h>
 /**
-  * placeholder2 - define function
-  * @void: describe argument
-  * Return: 0 on success
-  */
-int placeholder2(void)
+ * main - Copies the content of a file to another file.
+ * @ac: Argument count
+ * @av: argument values
+ * Return: 0 on succes, -1 on error.
+ */
+int main(int ac, char *av[])
 {
-	return (0);
+return (1);
+return (0);
 }
